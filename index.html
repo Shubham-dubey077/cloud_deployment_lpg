@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LPG Crisis Solution | By Shubham Dubey</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f7f9fc;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#ff9800,#ff5722);
+color:white;
+padding:18px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+header h2{
+font-size:28px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+font-weight:500;
+}
+
+.hero{
+
+height:90vh;
+
+background-image:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:55px;
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:22px;
+margin-bottom:30px;
+
+}
+
+.btn{
+
+background:#ff9800;
+padding:14px 35px;
+text-decoration:none;
+color:white;
+border-radius:40px;
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:#ff5722;
+
+}
+
+section{
+
+padding:70px 10%;
+
+}
+
+.title{
+
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+color:#ff5722;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card img{
+
+width:100%;
+height:220px;
+object-fit:cover;
+
+}
+
+.card h3{
+
+padding:15px;
+
+}
+
+.card p{
+
+padding:0 15px 20px;
+color:#666;
+
+}
+
+.features{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+.feature{
+
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+}
+
+.feature h3{
+
+color:#ff5722;
+margin-bottom:15px;
+
+}
+
+.contact{
+
+background:#ff5722;
+color:white;
+text-align:center;
+
+}
+
+.contact button{
+
+padding:15px 40px;
+border:none;
+border-radius:40px;
+font-size:18px;
+background:white;
+color:#ff5722;
+cursor:pointer;
+margin-top:25px;
+
+}
+
+footer{
+
+background:#222;
+color:white;
+padding:20px;
+text-align:center;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>LPG Crisis</h2>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#solution">Solution</a>
+<a href="#features">Features</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>LPG Crisis Management</h1>
+
+<p>
+Helping families find nearby LPG cylinders, emergency suppliers,
+and real-time availability.
+</p>
+
+<a href="#solution" class="btn">
+Explore Project
+</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">Why This Project?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80">
+
+<h3>Cylinder Shortage</h3>
+
+<p>
+Many families struggle during emergency LPG shortages. Our platform
+helps users quickly locate available cylinders.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80">
+
+<h3>Nearby Dealers</h3>
+
+<p>
+Locate nearby distributors and emergency suppliers in just a few clicks.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80">
+
+<h3>Digital Solution</h3>
+
+<p>
+A cloud-based platform connecting customers, suppliers and emergency services.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="solution">
+
+<h2 class="title">Project Features</h2>
+
+<div class="features">
+
+<div class="feature">
+
+<h3>📍 Live Dealer Search</h3>
+
+<p>Find nearby LPG distributors instantly.</p>
+
+</div>
+
+<div class="feature">
+
+<h3>🔥 Emergency Booking</h3>
+
+<p>Quick booking during LPG shortages.</p>
+
+</div>
+
+<div class="feature">
+
+<h3>📦 Stock Availability</h3>
+
+<p>Know whether cylinders are available before visiting.</p>
+
+</div>
+
+<div class="feature">
+
+<h3>📱 Mobile Friendly</h3>
+
+<p>Responsive interface for every device.</p>
+
+</div>
+
+<div class="feature">
+
+<h3>☁ Cloud Hosted</h3>
+
+<p>Deployable on AWS EC2, S3 or any cloud platform.</p>
+
+</div>
+
+<div class="feature">
+
+<h3>🔒 Secure Platform</h3>
+
+<p>Safe login and protected customer information.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Need LPG Assistance?</h2>
+
+<p>
+Our goal is to reduce waiting time and help people during LPG shortages.
+</p>
+
+<button onclick="showMessage()">
+Request Help
+</button>
+
+<h3 id="msg" style="margin-top:25px;"></h3>
+
+</section>
+
+<footer>
+
+<h3>Developed by Shubham Dubey</h3>
+
+<p>Cloud Computing Mini Project • 2026</p>
+
+</footer>
+
+<script>
+
+function showMessage(){
+
+document.getElementById("msg").innerHTML=
+"✅ Your request has been submitted successfully. Our nearest supplier will contact you shortly.";
+
+}
+
+</script>
+
+</body>
+</html>
